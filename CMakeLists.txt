@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.20)
 
 project(nothofagus_demo_project CXX)
 
-# Setting up build options for GLFW
 option(NOTHOFAGUS_INSTALL "Disabling installation of Nothofagus" OFF)
 add_subdirectory("third_party/nothofagus")
 
