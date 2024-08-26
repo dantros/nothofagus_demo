@@ -6,8 +6,6 @@ project(nothofagus_demo_project CXX)
 option(NOTHOFAGUS_INSTALL "Disabling installation of Nothofagus" OFF)
 add_subdirectory("third_party/nothofagus")
 
-message(NOTHOFAGUS_INCLUDE="${NOTHOFAGUS_INCLUDE}")
-
 file(GLOB_RECURSE HEADERS "source/*.h" "include/*.h")
 
 add_executable(nothofagus_demo
