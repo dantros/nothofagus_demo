@@ -13,7 +13,5 @@ And then, you can build the code with
 cmake --presets ninja-release
 cd ../build_cmake/ninja-release/
 ninja
-ninja install
-cd ../install_cmake/ninja-release/
 ```
 Enjoy!
