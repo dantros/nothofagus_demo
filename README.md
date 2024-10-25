@@ -11,7 +11,7 @@ git submodule update --init --recursive
 And then, you can build the code with
 ```
 cmake --presets ninja-release
-cd ../build_cmake/ninja-release/
+cd ../build/ninja-release/
 ninja
 ```
 Enjoy!
