@@ -8,8 +8,11 @@
 
 int main()
 {
+    // You can directly use spdlog to ease your logging
+    spdlog::info("Welcome to Nothofagus Demo App!");
+
     Nothofagus::ScreenSize screenSize{150, 100};
-    Nothofagus::Canvas canvas(screenSize, "Keyboard test", {0.7, 0.7, 0.7}, 6);
+    Nothofagus::Canvas canvas(screenSize, "Demo App", {0.7, 0.7, 0.7}, 6);
 
     Nothofagus::ColorPallete pallete{
         {0.0, 0.0, 0.0, 0.0},
